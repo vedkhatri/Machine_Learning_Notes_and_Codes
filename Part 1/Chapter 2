@@ -1,0 +1,25 @@
+CHAPTER 2: END-TO-END MACHINE LEARNING PROJECT
+
+- Checklist for a ML project:
+  1. Frame the problem and look at the big picture
+    1.1. Define the objective in business terms
+    1.2. How will the solution be used?
+    1.3. What are the current solutions/workarounds?
+    1.4. How should the problem be framed? (Supervised/Unsupervides, Online/Offline, etc.)
+    1.5. How should performance be measured?
+    1.6. Is the performance measure aligned with the business objective?
+    1.7. What would be the minimum performance needed to reach the business objective?
+    1.8. What are comparable problems? Can you reuse experience or tools?
+    1.9. Is human expertise available?
+    1.10. How would te problem be solved manually?
+    1.11. List the assumptions made so far
+    1.12. Verify assumptions
+  2. Get the data
+    2.1. 
+  3. Explore the data to get insights
+  4. Prepare the data to better expose the underlying data patterns to ML algorithms
+  5. Explore many different models and short-list the best ones
+  6. Fine-tune your models and combine them into a great solution
+  7. Present your solution
+  8. Launch, monitor and maintain your system
+  
