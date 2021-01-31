@@ -15,11 +15,53 @@ CHAPTER 2: END-TO-END MACHINE LEARNING PROJECT
     1.11. List the assumptions made so far
     1.12. Verify assumptions
   2. Get the data
-    2.1. 
+    2.1. List the data needed and by how much
+    2.2. Find and the document where the data can be found
+    2.3. Check how much space it will take
+    2.4. Check legal obligations and authorisations
+    2.5. Get access authorisations
+    2.6. Create a workspace (with adequate storage space)
+    2.7. Get the data
+    2.8. Convert the data to a format that can easily be manipulated
+    2.9. Ensure sensitive information is deleted or protected
+    2.10. Check size and type of data (i.e. time-series, sample, geographical, etc)
+    2.11. Sample a test set, put it aside, and never look at it!
   3. Explore the data to get insights
+    3.1. Create a copy of data for exploration (sample it down to a manageable size)
+    3.2. Create of Jupyter notebook to keep a record of your data exploration
+    3.3. Study each attribute and its characteristics - Name, Type, % of missing values, Noisiness, type of distribution
+    3.4. For supervised learning tasks, identify the target attributes(s)
+    3.5. Visualise the data
+    3.6. Study the correlations between attributes
+    3.7. Study how the problem will be solved manually
+    3.8. Idenitfy the promising transformations
+    3.9. Identify extra data that would be useful
+    3.10. Document what was learnt
   4. Prepare the data to better expose the underlying data patterns to ML algorithms
+    4.1. Data cleaning: Fix or remove outliers, fill in missing values (ex zero, mean, median, etc) or drop their rows/columns
+    4.2. Feature selection: Drop the attributes that provide no useful information for the task
+    4.3. Feature Engineering: Discretise continuous features, decompose features, add promising tranformations of features, aggregate features into promising new features
+    4.4. Feature scaling: Standardise or normalise features
   5. Explore many different models and short-list the best ones
+    5.1. Train many quick and dirty models from different categories (ex. linear, Naive Bayes, SVM, Random Forests, Neural Nets, etc) usinf standard parameters
+    5.2. Measure and compare their performance
+    5.3. Analyse the most significant variables for each algorithm
+    5.4. Analyse the types of errors the models make
+    5.5. Have a quick round of feature selection and engineering
+    5.6. Iterate 5.1 to 5.5
+    5.7. Short-list top three to five most promising models, preferring models that make different types of errors
   6. Fine-tune your models and combine them into a great solution
+    6.1. Fine-tune the hyperparameters using cross-validation
+    6.2. Try ensemble methods. Combining best models will often perform better than running them individually
+    6.3. Once confident on the model, measure its performance on the test set to estimate the generalisation error.
   7. Present your solution
+    7.1. Document what was done
+    7.2. Create a nice presentation
+    7.3. Explain why the solution achieves the business objective
+    7.4. Mention interesting points noticed along the way
+    7.5. Ensure key findings are communicated through beautiful visualisations or easy-to-remember statements
   8. Launch, monitor and maintain your system
+    8.1. Get solutions ready for production (plug into production data inputs, write unit tests, etc)
+    8.2. Write monitoring code to check your system's live performance at regular intervals and trigger alerts when it drops
+    8.3. Restrain your models on a regular basis on fresh data
   
